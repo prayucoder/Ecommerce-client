@@ -1,7 +1,7 @@
 import axios from "axios"
 import * as actionType from "../constants/cartConstants"
 
-const URL = "";
+const URL = "http://localhost:8000";
 
 export const addToCart = (id, quantity) => async(dispatch) => {
     try{
